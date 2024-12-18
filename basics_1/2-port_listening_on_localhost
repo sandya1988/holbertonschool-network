@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#script that listens to port 98 on localhost
+
+# sudo apt update / sudo apt install netcat
+
+#To run a simple server on 98
+
+nc -l 98
+
+# sudo apt update / sudo apt install netcat
+# in a different terminal --> nc localhost 98
